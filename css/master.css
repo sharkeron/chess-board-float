@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.chessboard {
+    width: 800px;
+    height: 800px;
+    margin: 50px auto;
+    border: 10px solid #4F4C3B;
+}
+
+.field {
+    float: left;
+    width: 12.5%;
+    height: 12.5%;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+.checker{
+    margin: 10% auto;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.whitechecker {
+    background-color: #fff;
+}
+
+.blackchecker {
+    background-color: #000;
+}
